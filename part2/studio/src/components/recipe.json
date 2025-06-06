@@ -1,4 +1,4 @@
-[
+
    {
      "name": "Stovetop Mac and Cheese",
      "author": "Stephanie Melchione",
@@ -7,12 +7,11 @@
      "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
      "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+        {"id" : 1, "name" : "uncooked macaroni"},
+        { "id" : 2, "name" : "butter"},
+        {"id" : 3, "name" : "flour"},
+        {"id" : 4, "name" :  "heavy cream"},
+        { "id" : 5, "name" :  "milk"}
      ]
    }
- ]
  

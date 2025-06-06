@@ -1,9 +1,15 @@
 import recipedata from "./recipe.json";
 
 function RecipeName() {
-  return <h1></h1>;
+  //import return the name of the recipe as a level 1 header
+  const recipeName = recipedata.name;
+  return <h1>{recipeName}</h1>;
 }
-
+//if an array
+{/* <div>
+{recipes.map((recipe) => (
+  <h1 key={recipe.id}>{recipe.name}</h1>
+))}
+</div> */}
 export default RecipeName;
 
-//import return the name of the recipe as a level 1 header
